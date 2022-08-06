@@ -6,8 +6,4 @@ module.exports = {
   testEnvironment: 'node',
   clearMocks: true,
   preset: 'ts-jest',
-  moduleNameMapper: {
-    'App/(.*)': '<rootDir>/src/$1',
-    'Test/(.*)': '<rootDir>/test/$1',
-  },
 };
